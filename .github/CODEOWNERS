@@ -1,9 +1,3 @@
-# @TCHERlab/reviewers
-# @TCHERlab/rev_content
-# @TCHERlab/rev_styles
-# @TCHERlab/rev_javascript
-# @TCHERlab/rev_design
-
 
 # ============================================================
 # 📘 CODEOWNERS - TCHERlab/gijonweb
@@ -15,47 +9,29 @@
 # 🧩 REGLA GLOBAL
 # Todos los archivos requieren al menos la aprobación del equipo de revisores
 *                       @TCHERlab/reviewers
+docs/                   @TCHERlab/rev_content
 
+assets/                 @TCHERlab/rev_design
+css/                    @TCHERlab/rev_styles
+js/                     @TCHERlab/rev_javascript
 
-# 🖥️ BACKEND
-# Todo lo que esté dentro de la carpeta src/ debe ser aprobado por el equipo backend
-src/                    @TCHERlab/backend
-api/                    @TCHERlab/backend
-server/                 @TCHERlab/backend
-
-
-# 🎨 FRONTEND
-# Los cambios en la parte visual del sitio (HTML, CSS, JS del cliente)
-css/                    @TCHERlab/frontend
-html/                   @TCHERlab/frontend
-js/                     @TCHERlab/frontend
-assets/                 @TCHERlab/frontend
-public/                 @TCHERlab/frontend
-
-
-# 🧾 DOCUMENTACIÓN
-# Cambios en documentación general o el README
-README.md               @TCHERlab/revisores
-docs/                   @TCHERlab/revisores
-
-
-# ⚙️ CONFIGURACIONES
-# Configuraciones importantes (GitHub, CI/CD, etc.) deben ser validadas por revisores
-.github/                @TCHERlab/revisores
-.gitignore              @TCHERlab/revisores
-package.json            @TCHERlab/revisores
-Dockerfile              @TCHERlab/revisores
-
-
-# 🧪 TESTS
-# El equipo de backend y revisores validan los tests
-tests/                  @TCHERlab/backend @TCHERlab/revisores
+games/assets/           @TCHERlab/rev_design
+games/css/              @TCHERlab/rev_styles
+games/js/               @TCHERlab/rev_javascript          
 
 
 # 🧑‍💻 INDIVIDUALES (opcional)
 # Ejemplo: si hay responsables específicos de ciertos archivos
-# CHANGELOG.md          @usuario1
-# SECURITY.md           @usuario2
+
+# 🧾 DOCUMENTACIÓN
+# Cambios en documentación general o el README
+README.md               @tchertutor
+
+# ⚙️ CONFIGURACIONES
+# Configuraciones importantes (GitHub, CI/CD, etc.) deben ser validadas por revisores
+.github/                @tchertutor
+.gitignore              @tchertutor
+
 
 # ============================================================
 # FIN DEL ARCHIVO CODEOWNERS
