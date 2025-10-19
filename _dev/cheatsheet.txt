@@ -1,0 +1,3 @@
+git add . # preparar cambios
+git commit -m "mensaje" # guardar cambios localmente
+git push # subirlos a GitHub
