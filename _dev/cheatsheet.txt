@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # 1.  Ver en que rama estoy
 git branch
 # 2.  Si No estoy en develop me cambio
@@ -42,18 +41,12 @@ git push
 
 =======
 =======
->>>>>>> c13ec49 (test)
+
 git add . # preparar cambios
 git commit -m "mensaje" # guardar cambios localmente
 git push # subirlos a GitHub
 
 git switch develop
 git push -u origin develop
-<<<<<<< HEAD
-git branch
 
--------espera PR
->>>>>>> develop
-=======
 git branch
->>>>>>> c13ec49 (test)
