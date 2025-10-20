@@ -1,0 +1,7 @@
+git add . # preparar cambios
+git commit -m "mensaje" # guardar cambios localmente
+git push # subirlos a GitHub
+
+git switch develop
+git push -u origin develop
+git branch

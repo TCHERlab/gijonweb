@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> c13ec49 (test)
 =======
 >>>>>>> c13ec49 (test)
 =======
@@ -14,7 +17,10 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> develop
+=======
+>>>>>>> c13ec49 (test)
 =======
 >>>>>>> c13ec49 (test)
 =======
@@ -33,6 +39,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 docs/                   @TCHERlab/rev_content
 
 assets/                 @TCHERlab/rev_design
@@ -43,6 +50,8 @@ games/assets/           @TCHERlab/rev_design
 games/css/              @TCHERlab/rev_styles
 games/js/               @TCHERlab/rev_javascript          
 =======
+=======
+>>>>>>> c13ec49 (test)
 =======
 >>>>>>> c13ec49 (test)
 =======
@@ -84,7 +93,10 @@ Dockerfile              @TCHERlab/revisores
 tests/                  @TCHERlab/backend @TCHERlab/revisores
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> develop
+=======
+>>>>>>> c13ec49 (test)
 =======
 >>>>>>> c13ec49 (test)
 =======
@@ -93,6 +105,7 @@ tests/                  @TCHERlab/backend @TCHERlab/revisores
 
 # 🧑‍💻 INDIVIDUALES (opcional)
 # Ejemplo: si hay responsables específicos de ciertos archivos
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,6 +123,10 @@ README.md               @tchertutor
 # CHANGELOG.md          @usuario1
 # SECURITY.md           @usuario2
 >>>>>>> develop
+=======
+# CHANGELOG.md          @usuario1
+# SECURITY.md           @usuario2
+>>>>>>> c13ec49 (test)
 =======
 # CHANGELOG.md          @usuario1
 # SECURITY.md           @usuario2
