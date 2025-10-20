@@ -1,0 +1,36 @@
+{
+    "section1": {
+        "title": "Termas Romanas Campo Váldes",
+        "paragraph": "Es uno de los yacimientos romanos mas importantes del norte de España.Su valor reside en la existencia de los restos bien conservados de un edifício público de más de 1500 años, que incluia que incluía sistemas de calefacción como el hipocausto, y en la información que proporcionan sobre la vida social, las costumbres y las técnicas constructivas de esa época."
+    },
+    "section2": {
+        "paragraph": "Las termas romanas se situan en la Plaza Campo Valdés, Gijón.Justo frente a la Iglesia de San Pedro, en el barrio de Cimadevilla, con vistas a la Playa de San Lorenzo Las termas de Campo Valdés. Las termas  fueron descubiertas accidentalmente tras unas obras de alcantarillado realizadas en 1903, Calixto Alvargonzález y Julio Somoza se encargaron de las primeras labores de excavación y documentación, elaborando con los resultados un informe que fue archivado por el Ayuntamiento de Gijón. El interés por los restos romanos no volvió a aflorar hasta el fin de la Guerra Civil, cuando se destruyó la antigua iglesia de San Pedro, edificada sobre las ruinas. Es entonces cuando se discutió si volver a levantar el templo en su emplazamiento original, idea que finalmente se llevó a cabo ocultándose una parte del yacimiento para siempre. Tras una serie de intentos de exponer parte de las ruinas al público, las excavaciones se iniciaron en 1990 y sacaron a la luz una gran parte de la construcción, construyéndose después el actual museo, que fue inaugurado en 1995 "
+    },
+    "section3": {
+        "paragraph" : "Sus orígenes se remontan al siglo I d.C., cuando Gijón, conocida como «Gigia» por los romanos comenzaron a construirse en el siglo I dc  el edificio se amplió y reformó en el siglo II y se mantuvo en uso hasta el siglo IV  los termas eran baños públicos además de un lugar de reunión para los habitantes de la ciudad  incluso los esclavos podrían usarlas por un módico precio en el siglo IV  debido a un cambio en su uso social y funcional pasando de ser un espacio para la vía pública y el ocio  a un posible sede de almacenes o espacios relacionados  con el ejército.Durante la época medieval, el sitio fue utilizado como cementerio(necrópolis),perdiendo por completo  su función original."
+    },
+    "section4" : {
+     "paragraph" : "La función actual de las Termas Romanas de Campo Valdés es la de un museo arqueológico de sitio dedicado a la conservación, investigación y difusión de los restos de unas antiguas termas públicas romanas. Los visitantes pueden recorrer el yacimiento a través de pasarelas para observar las estancias originales (como el calidarium, tepidarium y frigidarium) y aprender sobre la historia y la vida cotidiana en Gijón durante la época romana a través de paneles informativos y la exposición de materiales arqueológicos recuperados",
+     "tiposCalefaccion" : {
+        "caldarium" : {
+            "funcion" : "Función: Era el baño caliente donde se fomentaba la sudoración y la relajación.",
+            "caracteristicas": "Podía incluir un baño (alveus) hundido en el suelo, o incluso una zona más seca y caliente llamada laconicum. En grandes termas había piscinas, mientras que en las pequeñas se usaban bañera",
+            "temperatura" : "Fría, con el objetivo de refrescar el cuerpo"
+        },
+
+        "tepidarium" :  {
+            "funcion" : "Servía como sala de transición y aclimata el cuerpo antes de entrar al caldarium y al frigidarium.",
+            "caracteristicas" : "Era una sala de temperatura intermedia, ni muy fría ni muy caliente, que ayudaba al cuerpo a adaptarse a las otras temperaturas.",
+            "temperatura" : "Tibia, una temperatura moderada para preparar al cuerpo para los cambios."
+        },
+
+        "frigidarium" :{
+            "funcion" : "Era la sala para los baños fríos.",
+            "caracteristicas" : "A menudo contenía una gran piscina al aire libre, la natación, para nadar y refrescarse",
+            "temperatura" : "Fría, con el objetivo de refrescar el cuerpo"
+        }
+
+        
+    }
+    }
+}

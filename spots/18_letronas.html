@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>letronas</title>
+</head>
+<body>
+  <header>
+    <div id="botonIdioma">
+      <button class="boton1">ES</button>
+      <button class="boton2">EN</button>
+      <button class="boton3">AST</button>
+    </div>
+    <div class="logo">
+      <!-- pequeño recuadro con fondo rojo (Gijón) y logo del sitio-->
+       
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="sitios.html">Games</a></li>
+        <li><a href="otras_pags.html">Sitios</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  
+  <main>
+    <div class="tituloIntroductivo">
+        <h1>LETRONAS</h1>
+        <!--Título del lugar -->
+
+        <p>Pequeña introducción del lugar</p>  
+    </div>
+
+    <section class="parte1">
+        <div class="texto">
+            <p>Parte 1 del contenido</p>
+        </div>
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+      <!-- sección de contenido principal. A la izq el texto y a la drch la img -->
+    </section>
+
+    <section class="parte2">
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 2 del contenido</p>
+            <p>Parte 2 del contenido</p>
+            <p>Parte 2 del contenido</p>
+            <p>Parte 2 del contenido</p>
+
+        </div>
+      <!-- otra sección, como la anterior pero el texto al lado contrario (drch) -->
+    </section>
+    
+    <section class="parte3">
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 3 del contenido</p>
+        </div>
+      <!-- otra sección, como la primera -->
+    </section>
+
+    <article>
+      <!-- contenido secundario, más info (texto, imgs,...), tados curiosos,... -->
+    </article>
+
+    <div class="game">
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025</p>
+  </footer>
+
+  <script type="application/json"  id="letronas">
+
+    {
+
+"Titulo_h1":"LETRONAS DE GIJÓN ASTURIAS",
+
+"parrafo1_p":"Es una escultura urbana de la ciudad asturiana de Gijón, situada al norte de España. Representa el logo turístico de la ciudad y está erigida en la zona de los Jardines de la Reina, en el puerto deportivo conocido como 'el muelle' en pleno centro de la ciudad.",
+
+"Titulo_h2":"Descripción",
+
+"parrafo2_p":"Obra donada a la ciudad por la federación de empresarios del metal y afines del Principado de Asturias, en respuesta a la demanda que hizo el Ayuntamiento de Gijón y el empeño de la entonces alcaldesa Paz Fernández Felgueroso para lograr tener la imagen de la ciudad en tres dimensiones.",
+
+"parrafo3_p":"Su inauguración fue el 17 de marzo de 2011 y el diseñador Juan Jarreño fue el encargo de adaptar la marca turística de la ciudad de la escultura, ya que su material es de acero macizo sin soldaduras. ",
+
+"parrafo4_p":"Cada letra pesa no menos que en torno a dos toneladas, haciendo un total de 10 para el conjunto escultórico completo que mide tres metros de alto.",
+
+"parrafo5_p":"La ubicación de la escultura fue decidida a través de internet por los gijoneses, imponiendo la ubicación actual a otras como la plaza del Marqués, el Náutico o el puente del Piles y siendo uno más de los reclamos turísticos por excelencia de la ciudad desde su instalación."
+
+
+
+}
+
+
+
+
+
+  </script>
+
+  <script>
+
+    const raw = document.querySelector("#letronas").textContent;//aqui esta toda la info del json en formato texto
+    console.log(raw);//aqui esta toda la info del json
+    const data = JSON.parse(raw);
+    console.log(data);
+    console.log(data.parrafo9_p);
+
+
+    console.log(data.section);
+
+    document.querySelector(".parte1 .texto p:nth-child(1)").textContent = data.parrafo1_p
+
+    document.querySelector(".parte2 .texto p:nth-child(1)").textContent = data.parrafo2_p
+    document.querySelector(".parte2 .texto p:nth-child(2)").textContent = data.parrafo3_p
+    document.querySelector(".parte2 .texto p:nth-child(3)").textContent = data.parrafo4_p
+    document.querySelector(".parte2 .texto p:nth-child(4)").textContent = data.parrafo5_p
+
+
+
+
+
+  </script>
+  
+</body>
+</html>

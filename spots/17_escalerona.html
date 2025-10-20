@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>escalerona</title>
+</head>
+<body>
+  <header>
+    <div id="botonIdioma">
+      <button>ES</button>
+      <button>EN</button>
+      <button>AST</button>
+    </div>
+    <div class="logo">
+      <!-- pequeño recuadro con fondo rojo (Gijón) y logo del sitio-->
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="sitios.html">Games</a></li>
+        <li><a href="otras_pags.html">Sitios</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  
+  <main>
+    <div class="tituloIntroductivo">
+
+        <!--Título del lugar -->
+   <h1>LA ESCALERONA GIJÓN ASTURIAS</h1>
+
+
+        <p>Pequeña introducción del lugar</p>  
+    </div>
+
+    <section class="parte1">
+        <div class="texto">
+            <p>Parte 1 del contenido</p>
+            <p>Parte 1 del contenido</p>
+            <p>Parte 1 del contenido</p>
+            <p>Parte 1 del contenido</p>
+        </div>
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+      <!-- sección de contenido principal. A la izq el texto y a la drch la img -->
+    </section>
+
+    <section class="parte2">
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 2 del contenido</p>
+            <p>Parte 2 del contenido</p>
+            <p>Parte 2 del contenido</p>
+            
+        </div>
+      <!-- otra sección, como la anterior pero el texto al lado contrario (drch) -->
+    </section>
+    
+    <section class="parte3">
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 3 del contenido</p>
+
+        </div>
+      <!-- otra sección, como la primera -->
+    </section>
+    
+    <section class="parte4">
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 4 del contenido</p>
+
+        </div>
+      <!-- otra sección, como la primera -->
+    </section>
+
+
+    <article>
+      <!-- contenido secundario, más info (texto, imgs,...), tados curiosos,... -->
+    </article>
+
+    <div class="game">
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025</p>
+  </footer>
+
+    <script type="application/json" id="escalerona">
+
+{
+"Titulo_h1": "LA ESCALERONA GIJÓN ASTURIAS",
+
+"parrafo1_p": "Situada en la escalera 4, en la Playa de San Lorenzo en el vértice entre las calles Capua y Jovellanos. Próximos nos encontramos con los jardines del Náutico, El martillo de Capua y una oficina de turismo municipal.",
+
+"parrafo2_p": "En el año 1926 el arquitecto municipal, Miguel García de la Cruz presentó un diseño de escalera. Esto se debe a las grandes distancias entre las escaleras 3 y 5 del Muro de San Lorenzo, lo que dificultaba el acceso a la zona oriental del arenal que era el área más frecuentada.",
+
+"parrafo3_p":"En esa zona se encuentra el balneario de la favorita  que hasta el año 1924 contaba con una gran terraza de hormigón.",
+
+"parrafo4_p":"Fue demolida por unos grandes temporales y la zona quedó libre para el proyecto de “De la Cruz” que ya había construido el muro entre los años (1907-1914). El supuesto proyecto consistió en una planta semicircular con unas escaleras en niveles ciertamente similar a su diseño posterior.",
+
+
+"Titulo_h2":"PROYECTO DE JOSÉ AVELINO DÍAZ FERNÁNDEZ-OMAÑA, 1993",
+
+"parrafo5_p": "En enero de 1933 el ayuntamiento, liderado por el alcalde GIL FERNÁNDEZ BARCIA, decidió retomar dicho proyecto. Esto hizo rebajar las tensiones debido a los grandes problemas de empleo que estaba atravesando la ciudad.",
+
+"parrafo6_p": "En el mes de marzo de dicho año el arquitecto municipal JOSÉ AVELINO DÍAZ OMAÑA presentó los planos y el 15 de julio de 1933 se inaugurará la estructura. La escalerona se construyó en algo más de un mes por la empresa de construcciones Casa Gargallo trabajando por la noche",
+
+"parrafo7_p":"El ingeniero Ramón Argüelles participó en la construcción que costó 100000 pesetas.",
+
+
+
+"Titulo_h3":"REFORMA DEL 2000-2002",
+
+"parrafo8_p":"En la reforma del Muro en el año 1992 se retiró el termómetro existente en dicha columna y se añaden 3 escalones de acceso a la plataforma superior de la escalera. Ante la mala calidad del estado de dicha escalera, el hijo de Fernández-Omaña (Miguel Díaz Negrete) inició la restauración de la misma en el año 2000. La escalerona reabre en la primavera de 2002.",
+
+
+
+
+"Titulo_h4":"Descripcion",
+
+"parrafo9_p":"Se trata de una escalera con tres grandes tramos; El primer tramo está parcialmente enterrado en la arena y es el más grande. El segundo tramo, presenta un tambor cilíndrico que actúa como mirador y le da al monumento su frente característico. Finalmente el tercer tramo conecta con el paseo marítimo y, en el centro del mismo, se erige un pilar que cuenta con un termómetro, relojes y una gran bandera de Gijón."
+
+
+}
+
+
+
+  </script>
+
+  <script>
+
+
+  </script>
+
+  <script>
+
+
+   const raw = document.querySelector("#escalerona").textContent;//aqui esta toda la info del json en formato texto
+    console.log(raw);//aqui esta toda la info del json
+    const data = JSON.parse(raw);
+    console.log(data);
+    console.log(data.parrafo9_p);
+
+
+    console.log(data.section);
+
+    document.querySelector(".parte1 .texto p:nth-child(1)").textContent = data.parrafo1_p
+    document.querySelector(".parte1 .texto p:nth-child(2)").textContent = data.parrafo2_p
+    document.querySelector(".parte1 .texto p:nth-child(3)").textContent = data.parrafo3_p
+    document.querySelector(".parte1 .texto p:nth-child(4)").textContent = data.parrafo4_p
+
+
+    document.querySelector(".parte2 .texto p:nth-child(1)").textContent = data.parrafo5_p
+    document.querySelector(".parte2 .texto p:nth-child(2)").textContent = data.parrafo6_p
+    document.querySelector(".parte2 .texto p:nth-child(3)").textContent = data.parrafo7_p
+
+    document.querySelector(".parte3 .texto p:nth-child(1)").textContent = data.parrafo8_p
+
+
+
+    document.querySelector(".parte4 .texto p:nth-child(1)").textContent = data.parrafo9_p
+
+
+
+
+  </script>
+
+
+  
+</body>
+</html>

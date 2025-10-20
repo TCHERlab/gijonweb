@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="author" content="">
+    <!-- CUSTOMIZABLE -->  <title>Juego banderas</title>
+    <!-- CUSTOMIZABLE -->  <meta name="description" content="">
+
+
+          
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <style>
+
+    main{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .imagen{
+        padding: 0;
+        width: 100px;
+    }
+
+    .boton1{
+
+        background-color: green;
+        color: darkorange;
+
+    }
+
+    .boton2{
+
+        background-color: aqua;
+        color: green
+
+
+    }
+
+    .boton3{
+
+        background-color: orange;
+        color:green;
+
+
+    }
+
+    .boton4{
+
+        background-color: rgb(105, 236, 72);
+        color: green;
+
+
+    }
+
+    #fondo{
+        width: 80vw;
+        height: 90vh;
+        margin:3rem;
+        background-image: url("./assets/img/17_escalerona/escaleronaGijon 4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: lighten;
+    }
+
+    h1{
+    background-color: hotpink; 
+    color:white   
+
+    }
+
+    h2{
+     
+        background-color: cadetblue;
+        color: gold;
+
+    }
+
+
+    .lugares{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+
+    }
+
+    .lugares span{
+        background-color: crimson;
+        color: azure;
+        padding: 1rem;
+        border-radius: 1rem;
+        width: 10vw;
+        
+
+    }
+
+    .flags{
+        display: flex;
+        justify-content: space-around;
+       
+        
+
+        
+    }
+
+    img{
+
+    width: 100px;
+    height: 70px;
+    }
+
+
+
+    #flagsolution{
+    position: relative;
+    top: 70px;
+    left: 525px;
+    
+    }
+
+    #popup{
+        border:  2px solid #ff0000;
+        padding: 10px;
+        background-color:aqua;
+        border-radius: 8px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50%;
+    }
+
+    
+
+
+    
+
+ </style>
+  </head>
+
+  <body>
+    <h1>Juego de izar la bandera</h1>
+
+    <h2>Banderas</h2>
+
+      
+    <div id="popup">juego terminado</div>
+
+
+    <main>
+
+    
+        <div class="flags">
+            <div >
+            <img id="asturianFlag" src="./assets/img/17_escalerona/asturianFlag.png">
+            </div> 
+            
+            <div>
+            <img id="spainFlag" src="./assets/img/17_escalerona/spainFlag.png">
+            </div>
+
+            <div>
+            <img  id="gijonFlag" src="./assets/img/17_escalerona/gijonFlag.png">
+            </div>
+
+            <div>
+            <img  id="europeanFlag" src="./assets/img/17_escalerona/europeFlag.png">
+            </div>
+
+        </div>
+
+    
+    
+        <div id="fondo">
+
+         <img id="flagsolution" src="">
+
+
+    
+
+
+
+
+
+
+
+
+
+        </div>
+    </main>
+
+
+
+        <script>
+        //FUNCIONES JUEGO 1
+
+        let banderas
+        let boton
+
+        ///SCRIPT JUEGO Nº1
+
+
+            let astFlag = document.querySelector("#asturianFlag");
+            astFlag.addEventListener("click", function (){
+
+                document.querySelector("#fondo img").setAttribute("src","./assets/img/17_escalerona/asturianFlag.png")
+                window.alert("has fallado" , "sigue intentandolo")
+                
+
+
+            })
+
+            let spaFlag = document.querySelector("#spainFlag");
+            spaFlag.addEventListener("click", function(){
+
+                document.querySelector("#fondo img").setAttribute("src" , "./assets/img/17_escalerona/spainFlag.png")
+                window.alert("has fallado" , "sigue intentandolo")    
+
+            })
+
+            let gijFlag = document.querySelector("#gijonFlag");
+            gijFlag.addEventListener("click" , function(){
+
+            document.querySelector("#fondo img").setAttribute("src" ,"./assets/img/17_escalerona/gijonFlag.png")
+            window.alert("has acertado")    
+
+
+            })
+
+
+            let eurFlag = document.querySelector("#europeanFlag");
+            eurFlag.addEventListener("click" , function(){
+
+            document.querySelector("#fondo img").setAttribute("src" ,"./assets/img/17_escalerona/europeFlag.png" ) 
+            window.alert("has fallado", "juego terminado")   
+
+
+
+            })
+
+
+
+
+            
+
+        </script>
+
+
+  </body>
+  
+</html>

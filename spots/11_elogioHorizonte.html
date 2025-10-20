@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sitio</title>
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+</head>
+<body>
+  <header>
+    <div class="botonIdioma">
+      <button>ES</button>
+      <button>EN</button>
+      <button>AST</button>
+    </div>
+    <div class="logo">
+      <!-- pequeño recuadro con fondo rojo (Gijón) y logo del sitio-->
+    </div>
+    <nav class="menu">
+      <ul>
+        <!-- <li><a href="#">Inicio</a></li>
+        <li><a href="sitios.html">Games</a></li>
+        <li><a href="otras_pags.html">Sitios</a></li> -->
+      </ul>
+    </nav>
+
+  </header>
+  
+  <main>
+    <div class="tituloIntroductivo">
+        <h1>Sitio</h1>
+        <!--Título del lugar -->
+
+        <p>Pequeña introducción del lugar</p>
+      
+    </div>
+
+    <article>
+      <p>Este es un texto sobre la web o el proyecto...</p>
+    </article>
+  </main>
+
+    <section class="parte1">
+        <div class="texto">
+            <p>Parte 1 del contenido</p>
+        </div>
+        <div class="imagen">
+            <img src="./assets/img/11_elogioHorizonte/elogioHorizonte1.webp" width="30%" height="30%" alt="imagen referente al contenido">
+        </div>
+      <!-- sección de contenido principal. A la izq el texto y a la drch la img -->
+    </section>
+
+    <section class="parte2">
+        <div class="imagen">
+            <img src="./assets/img/11_elogioHorizonte/elogioHorizonte2.webp" width="30%" height="30%" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 2 del contenido</p>
+        </div>
+      <!-- otra sección, como la anterior pero el texto al lado contrario (drch) -->
+    </section>
+    
+    <section class="parte3">
+        <div class="imagen">
+            <img src="./assets/img/11_elogioHorizonte/elogioHorizonte3.webp" width="30%" height="30%" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 3 del contenido</p>
+        </div>
+      <!-- otra sección, como la primera -->
+    </section>
+
+  <article>
+    <!-- contenido secundario, más info (texto, imgs,...), tados curiosos,... -->
+  </article>
+
+  <div class="game">
+
+  </div>
+
+  <footer>
+    <p>© 2025</p>
+  </footer>
+
+  <script  type="application/json" id="elogioHorizonte" >
+
+{
+    "section1": {
+        "title":"Elogio del Horizonte",
+        "introduction": "El Elogio del Horizonte no es solo una escultura, sino una experiencia sensorial y simbólica. Chillida quiso crear una obra que dialogara con el paisaje y el espíritu del lugar, integrando arte, naturaleza y pensamiento. La escultura se abre hacia el horizonte marítimo, invitando al visitante a contemplar el infinito y reflexionar sobre su relación con el entorno.",
+        "paragraph": "Hoy, el Elogio del Horizonte es uno de los símbolos más emblemáticos de Gijón y del arte contemporáneo español. Su presencia en el Cerro de Santa Catalina representa la unión entre el ser humano y la naturaleza, entre la materia y el vacío, conceptos fundamentales en la obra de Eduardo Chillida."
+    },
+    "section2": {
+        "paragraph": "Inauguración y desarrollo. Fue inaugurado oficialmente el 9 de junio de 1990 en el Cerro de Santa Catalina, durante una ceremonia a la que acudieron vecinos, autoridades como el alcalde Vicente Álvarez Areces y el ministro Luis Martínez Noval, además del propio Eduardo Chillida. El acto estuvo marcado por una agresión a autoridades locales y por protestas de trabajadoras textiles. En la actualidad, la escultura ha sido objeto de actos vandálicos en varias ocasiones, especialmente en los años 2021, 2023 y 2025."
+    },
+    "section3": {
+        "paragraph": "El autor, Eduardo Chillida. Fue un escultor español nacido en San Sebastián (Guipúzcoa), considerado uno de los artistas más importantes del siglo XX. Su obra se caracteriza por la búsqueda del espacio, el equilibrio y la materia, utilizando materiales como hierro, acero, piedra, hormigón y alabastro. Comenzó estudiando arquitectura, pero pronto se dedicó por completo a la escultura. En los años 50 se estableció en París, donde empezó a obtener reconocimiento internacional. A lo largo de su carrera desarrolló un estilo abstracto y monumental, en el que exploró la relación entre la masa y el vacío, el arte y la naturaleza, el hombre y su entorno. Recibió numerosos premios, como el Premio Príncipe de Asturias de las Artes (1987) y el Premio Kandinsky. Su legado se conserva en el Museo Chillida Leku, en Hernani, un espacio al aire libre que reúne gran parte de su obra."
+}
+}
+  </script>
+
+  
+  <script  type="application/json" id="elogioHorizonte_assets" >
+{
+    "photo1":"assets/img/11_elogioHorizonte/elogioHorizonte1.webp",
+    "photo2":"assets/img/11_elogioHorizonte/elogioHorizonte2.webp",
+    "photo3":"assets/img/11_elogioHorizonte/elogioHorizonte3.webp"
+   
+}
+  </script>
+
+<script>
+
+const raw = document.querySelector("#elogioHorizonte").textContent;
+console.log(raw);
+const data= JSON.parse(raw);
+console.log(data);
+console.log(data.section5);
+
+document.querySelector(".tituloIntroductivo h1").textContent = data.section1.title;
+document.querySelector(".tituloIntroductivo p").textContent = data.section1.introduction;
+document.querySelector(".parte1 p").textContent = data.section1.paragraph;
+document.querySelector(".parte2 p").textContent = data.section2.paragraph;
+document.querySelector(".parte3 p").textContent = data.section3.paragraph;
+
+const raw_assets = document.querySelector("#elogioHorizonte_assets").textContent;
+const data_assets = JSON.parse(raw_assets);
+
+</script>
+
+
+  
+</body>
+</html>

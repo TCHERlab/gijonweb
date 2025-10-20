@@ -1,0 +1,99 @@
+            
+{
+    "titulo":"Parque de los Pericones",
+    "intro":"Con sus casi 38 hectáreas, el Parque de los Pericones es el mayor parque urbano de Gijón, superando en extensión al emblemático Parque Isabel la Católica (15,2 ha) y al parque fluvial del Piles (28,6 ha). Se ubica en el Monte Pericón, entre los barrios de Ceares y El Llano, y constituye uno de los principales pulmones verdes de la ciudad. Este parque ofrece una gran variedad de equipamientos e infraestructuras que lo convierten en un espacio polivalente. Dispone de zonas de juego infantil, aparatos de gimnasia, un skatepark, carriles bici, caminos peatonales, bancos, mesas de merendero y aseos públicos. También cuenta con una zona habilitada para perros sin correa, lo que favorece su uso por parte de familias y personas con mascotas.",
+    "tarjeta1":{
+        "lugar":"Casa del Hada de los Chupetes",
+        "contenido":"En esencia, se trata de una roca sobre la cual se ha colocado una puertecilla de color rosa y azul de pocos centímetros y una diminuta placa metálica ovalada, en la que se puede leer «El Hada de Los Chupetes». A la vera de dicha roca se encuentra un árbol. El conjunto está tan bien estructurado que nadie dudaría de la posibilidad de que fuese la vivienda de un hada. Dice Paula (El Hada de los Chupetes) que en el árbol próximo a la roca cualquier niño puede dejar colgado el chupete y que, a cambio, ella cuidará el adminículo e inclusive en la noche podría ponerle al chiquitín unas chuches o algún detalle bajo la almohada. La obra es una loable iniciativa de «Puertas Mágicas Asturias», que en este caso particular aspira a facilitar la fase del desarrollo en la que los peques prescinden del chupete, haciendo así menos traumática la transición. Esta casita se encuentra en el parque de los Pericones, en Ceares. Hay otras casitas o puertas mágicas en Gijón: la de Pepito Grillo, la del Soldadito de Plomo y la del Ratoncito Pérez, mientras que en Oviedo se sitúa la del Duende de los Deseos...y precisamente a ese duende le pido que haya más puertas mágicas.",
+        "fuente":"https://www.tripadvisor.es/ShowUserReviews-g187451-d23717415-r816749183-Casa_Hada_De_Los_Chupetes-Gijon_Asturias.html",
+        "":""
+    },
+    "tarjeta2":{
+        "titulo":"Botánica",
+        "contenido":"La riqueza botánica del parque es destacable, con una amplia variedad de especies arbóreas, tanto autóctonas como exóticas: abedules del Himalaya, cerezos japoneses, cipreses de los pantanos, higueras, robles (carbayones), castaños, tilos, hayas, laureles, tejos, secuoyas, tulíperos, fresnos, arces y encinas, entre otros. Esta diversidad vegetal no solo embellece el paisaje, sino que también favorece la biodiversidad urbana.",
+        "fuente":"https://www.tripadvisor.es/ShowUserReviews-g187451-d23657375-r815306234-Parque_de_los_Pericones-Gijon_Asturias.html",
+        "":""
+
+    },
+    "tarjeta3":{
+        "lugar":"Bosque de la memoria",
+        "contenido":"En el Bosque de la Memoria, se rinde homenaje a las víctimas del sida mediante un espacio de recogimiento natural. Asimismo, en 2020 se plantó el ``Tejo de la Memoria``, dedicado a las víctimas de la pandemia de COVID-19. Cabe señalar que el árbol actual no es el original, ya que el primer ejemplar desapareció poco tiempo después de ser sembrado.",
+        "placaBosque":"Bosque de la memoria, recuerdo y homenaje a las victimas del Sida.``De vuestro recuerdo brotó amor y sobre esta tierra plantamos para siempre vuestra presencia infinita. Comité Ciudadano AntiSida del Principado de Asturias",
+        "placaTejo":"El Tejo de la Memoria, En recuerdo de las victimas de la covid-19, Gijón/Xixon 18 de julio de 2020. El Texu de l´Alcordanza, n´alcordanza de les victimes de la covid-19, Gijón/Xixón 18 de xunetu de 2020",
+        "fuente":"https://www.tripadvisor.es/ShowUserReviews-g187451-d23640256-r810225278-Bosque_de_la_Memoria-Gijon_Asturias.html",
+        "":""
+
+    },
+    "tarjeta4":{
+        "lugar":"Esculturas",
+        "contenido":"El parque incorpora también un componente artístico. Alberga esculturas como Confluencia, una obra geométrica del artista ovetense Eugenio López, y Camaleón, una escultura colorida del senegalés Mohamadou Ndoye Douts. Según su autor, esta obra «es la unidad de la diversidad, habla de todos, como un camaleón se adapta a los diferentes espacios con sus colores». A lo alto del monte tambien se puede encontrar la escultura llamada El fin de las horas. En la rotonda del C.E.I.P. Los Pericones se encuentra otra escultura llamada Plazuela del ilustrado (Gaspar Melchor de Jovellanos)",
+        "fuente":"https://gijon.vivirasturias.com/esculturas/c/0/i/59617477/escultura-unidad-la-diversidad-camaleon",
+        "":""
+
+    },
+    "tarjeta5":{
+        "lugar":"Instalaciones deportivas:",
+        "contenido1":"El parque es un sitio perfecto para deportes al aire libre como el ciclismo o el atletismo entre otros y tambén dispone de varias instalaciones para poder practicar diferentes deportes. Hace unos años se disputaban la carrera de la Farinato Race y una prueba de la copa de asturias de ciclocross que en 2015 fue sede de el campeonato de españa de dicha disciplina.",
+        "contenido2":{
+                     "lugar1":"Complejo Deportivo El Llano Contrueces (Hermanos Entrerríos)",
+                     "lugar2":"Campo Municipal de Fútbol Los Pericones (CD Manuel Rubio)",
+                     "lugar3":"Campo La Cruz (U.C. Ceares, Gijón Futbol Femenino, Veriña CF, Escuela Mixta)",
+                     "lugar4":"Piscina El Llano Luis Alvargonzález",
+                     "lugar5":"Skatepark de los pericones",
+                     "lugar6":"Carril bici de los pericones"
+    },
+        "fuente":"",
+        "":""
+
+    },
+    "tarjeta6":{
+        "lugar":"Parques",
+        "contenido1":"Este parque ofrece una gran variedad de equipamientos e infraestructuras que lo convierten en un espacio polivalente. Dispone de zonas de juego infantil, aparatos de gimnasia, un skatepark, carriles bici, caminos peatonales, bancos, mesas de merendero y aseos públicos. También cuenta con una zona habilitada para perros sin correa, lo que favorece su uso por parte de familias y personas con mascotas.",
+        "contenido2":{
+                     "lugar1":"Zona de juegos biosaludables para personas mayores",
+                     "lugar2":"Parque Infantil Los Pericones",
+                     "lugar3":"Zona de juegos biosaludables para personas mayores II",
+                     "lugar4":"Parque Infantil Los Pericones II",
+                     "lugar5":"Skatepark de los pericones",
+                     "lugar6":"Zona delimitada para poder soltar a los perros"
+    },
+        "fuente":"",
+        "":""
+
+    },
+    "tarjeta7":{
+        "lugar":"Plaza del 3 de abril, Casona y hórreo",
+        "contenido1":"Entre sus elementos singulares se encuentran un hórreo tradicional asturiano y una antigua casona, que recuerdan el pasado rural del lugar, cuando la zona estaba ocupada por maizales y pequeños asentamientos como los poblados de La Santina y La Cábila. Asimismo, hay un sistema de depósitos de recogida de agua de lluvia que permite el riego sostenible de la vegetación.",
+        "contenido2":"La antigua casona, al lado del horreo es el sitio para tomar algo con las mejores vistas del parque aunque la zona de tomar algo mas concurrida es la plaza 3 de abril que dispone de terrazas de bares y sidrerías ",
+        "fuente":"",
+        "":""
+
+    },
+    "tarjeta8":{
+        "lugar":"Zonas con mesas",
+        "contenido1":"También hay zonas de descanso equipadas con bancos y mesas, que facilitan la organización de picnics o simplemente proporcionan un lugar para relajarse y contemplar la naturaleza que rodea el parque. A continuación dejo una lista de las zonas con mesas:",
+        "contenido2":{
+                     "lugar1":"Mesas norte",
+                     "lugar2":"Mesas escaleras",
+                     "lugar3":"Mesas horreo",
+                     "lugar4":"Mesas confluencia",
+                     "lugar5":"Mesas debajo del parque de perros",
+                     "lugar6":"Mesas altura calle pintor Manuel Medina",
+                     "lugar7":"Mesas zona parques II",
+                     "lugar8":"Mesas Contrueces",
+                     "lugar9":"Mesas área recreativa izq y dcha carretera",
+                     "lugar10":"Mesas sur área recreativa"
+    },
+        "fuente":"",
+        "":""
+
+    },
+    "tarjeta9":{
+        "contenido1":"El acceso al Área Recreativa Los Pericones es sencillo y cómodo. Se puede llegar en transporte público utilizando las líneas 16 y 26 del autobús urbano de Gijón, que cuentan con paradas cercanas a la entrada principal del parque. ",
+        "contenido2":"El Área Recreativa Los Pericones fue inaugurada en 1986 con el propósito de dotar a la ciudad de Gijón de un espacio natural abierto que facilite el contacto con la naturaleza y la realización de actividades recreativas saludables. Desde entonces, ha sido un lugar muy valorado por la comunidad local y visitantes. La entrada al parque es completamente gratuita y está abierto durante las 24 horas del día, lo que permite disfrutar del espacio en cualquier momento. Aunque no se pueden reservar mesas, está permitido llevar mesas portátiles para utilizarlas en las áreas designadas para picnics. El parque no ofrece servicios de alquiler de bicicletas ni cuenta con zonas de camping, pero sí brinda la posibilidad de realizar picnics y disfrutar de la naturaleza en un ambiente tranquilo y cuidado."
+    },
+    "tarjeta10":"",
+    "tarjeta11":"",
+    "tarjeta12":""
+
+}

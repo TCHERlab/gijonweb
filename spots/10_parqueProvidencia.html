@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sitio</title>
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+</head>
+<body>
+  <header>
+    <div class="botonIdioma">
+      <button>ES</button>
+      <button>EN</button>
+      <button>AST</button>
+    </div>
+    <div class="logo">
+      <!-- pequeño recuadro con fondo rojo (Gijón) y logo del sitio-->
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="sitios.html">Games</a></li>
+        <li><a href="otras_pags.html">Sitios</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  
+  <main>
+    <div class="tituloIntroductivo">
+        <h1>Sitio</h1>
+        <!--Título del lugar -->
+
+        <p>Pequeña introducción del lugar</p>
+      
+    </div>
+
+    <article>
+      <p>Este es un texto sobre la web o el proyecto...</p>
+    </article>
+  </main>
+
+    <section class="parte1">
+        <div class="texto">
+            <p>Parte 1 del contenido</p>
+        </div>
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+      <!-- sección de contenido principal. A la izq el texto y a la drch la img -->
+    </section>
+
+    <section class="parte2">
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 2 del contenido</p>
+        </div>
+      <!-- otra sección, como la anterior pero el texto al lado contrario (drch) -->
+    </section>
+    
+    <section class="parte3">
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 3 del contenido</p>
+            <ul> 
+              <li class="escultura1"></li>
+              <li class="escultura2"></li>
+              <li class="sitio1"></li>
+
+            </ul>
+        </div>
+      <!-- otra sección, como la primera -->
+    </section>
+
+  <article>
+    <!-- contenido secundario, más info (texto, imgs,...), tados curiosos,... -->
+  </article>
+
+  <div class="game">
+
+  </div>
+
+  <footer>
+    <p>© 2025</p>
+  </footer>
+
+  <script type="application/json" id="10_parqueDeLaProvidencia">
+{
+    "section1": {
+        "title"      : "El Parque de la Providencia",
+        "paragraph"  : "También se le conoce como Parque del Cabo San Lorenzo. Está situado en lo alto de la Providencia, al este de la ciudad,en la parroquia de Somió. Ubicado sobre terrenos militares recuperados para el disfrute y el ocio , fue inaugurado en 1997. Cuenta con aparcamiento, zona infantil,im singular mirador sobre la costa cantábrica,grupos escultóricos(homenaje a Galileo Galilei XV y paisaje Germinador) y amplios paseos"
+    },
+    "section2" : {
+        "paragraph"  :"Tiene unas increíbles vistas  desde la parte del mirador, ademas de tener una escultura para admirar. La zona es un entorno natural lleno de verde para disfrutar de la tranqulidad de la naturaleza y las bonitas vistas que te puede ofrecer el mirador que hay en la zona.El mirador da vistas al mar y a una isla peculiar, llamada la isla de la tortuga por su característica forma de lomo de tortuga."
+    },
+
+    "section3" : {
+        "paragraph"  : "Los terrenos del parque de la providencia eran unos antiguos terrenos militares que se usaban como plataforma de tiro militar para el ejército español adquirido por el estado español en 1945, ya que tenia una ubicación estratégica  y adecuada para el uso que se le iba a dar al lugar. El parque  de la providencia era de titularidad privada, dividido en cuantro propiedades, con cuatro dueños. En 1945 fue adquirido por el estado español para convertirlo en una plataforma de tiro para el ejercito pero en 1993 paso a ser propiedad municimal llevando asi la reconstrucción del lugar para transformarlo en una zona publica para los ciudadanos y el 8 de agosto fue inaugurado el 8 de agosto de 1997"
+    },
+
+    "section4" :{
+        "escultura1" : "Mirador del Parque de la providencia : es una contruccion hecha por Ángel Noriega Vásquez el cual fue inaugurado en 1997.",
+        "escultura2" : "Paisaje Germinador : fue creada por Miguel Ángel Lombardia en 1997 y esta instalada en el parque de la providencia ,Asturias,Gijón ",
+        "sitio1"     : "La isla de la tortuga: es una isla caracteristica por su forma de lomo de tortuga en la cual muchos pescadores van a pescar para estar tranquilos o lhacer otras actividades como snorkeling, kayaking , caminatas por la naturaleza e incluso actividades más distintas como jet ski, banana boat, paddle board y kayak"
+    }
+
+
+}
+
+  </script>
+
+  <script type="application/json" id="10_parqueDeLaProvidencia_assets">
+    
+{
+  "imgMirador" : "assets/img/10_parqueDeLaProvidencia/hq720.webp"
+  
+
+
+
+}
+
+
+  </script>
+
+
+
+
+  <script>
+    const raw = document.querySelector("#10_parqueDeLaProvidencia").textContent;
+    console.log(raw);
+    const data = JSON.parse(raw);
+    console.log(data);
+    console.log(data.section1);
+
+     document.querySelector(".tituloIntroductivo h1").textContent = data.section1.title;
+     document.querySelector(".tituloIntroductivo p").textContent  = data.section1.paragraph;
+
+     document.querySelector(".parte1 .texto").textContent         = data.section2.paragraph;
+     document.querySelector(".parte2 .texto").textContent         = data.section3.paragraph;
+     document.querySelector(".parte3 .texto ul .escultura1").textContent = data.section4.escultura1;
+     document.querySelector(".parte3 .texto ul .escultura2").textContent = data.section4.escultura2;
+     document.querySelector(".parte3 .texto ul .sitio1").textContent = data.section4.sitio1;
+
+
+    const raw_assets = document.querySelector("10_parqueDeLaProvidencia_assets").textContent;
+    const data_assets = JSON.parse(raw_assets);
+
+
+
+
+
+  
+
+
+  </script>
+  
+</body>
+</html>
