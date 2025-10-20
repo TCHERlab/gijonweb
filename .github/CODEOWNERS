@@ -1,12 +1,18 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> c13ec49 (test)
 # @TCHERlab/reviewers
 # @TCHERlab/rev_content
 # @TCHERlab/rev_styles
 # @TCHERlab/rev_javascript
 # @TCHERlab/rev_design
 
+<<<<<<< HEAD
 >>>>>>> develop
+=======
+>>>>>>> c13ec49 (test)
 
 # ============================================================
 # 📘 CODEOWNERS - TCHERlab/gijonweb
@@ -19,6 +25,7 @@
 # Todos los archivos requieren al menos la aprobación del equipo de revisores
 *                       @TCHERlab/reviewers
 <<<<<<< HEAD
+<<<<<<< HEAD
 docs/                   @TCHERlab/rev_content
 
 assets/                 @TCHERlab/rev_design
@@ -29,6 +36,8 @@ games/assets/           @TCHERlab/rev_design
 games/css/              @TCHERlab/rev_styles
 games/js/               @TCHERlab/rev_javascript          
 =======
+=======
+>>>>>>> c13ec49 (test)
 
 
 # 🖥️ BACKEND
@@ -64,11 +73,15 @@ Dockerfile              @TCHERlab/revisores
 # 🧪 TESTS
 # El equipo de backend y revisores validan los tests
 tests/                  @TCHERlab/backend @TCHERlab/revisores
+<<<<<<< HEAD
 >>>>>>> develop
+=======
+>>>>>>> c13ec49 (test)
 
 
 # 🧑‍💻 INDIVIDUALES (opcional)
 # Ejemplo: si hay responsables específicos de ciertos archivos
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 # 🧾 DOCUMENTACIÓN
@@ -84,6 +97,10 @@ README.md               @tchertutor
 # CHANGELOG.md          @usuario1
 # SECURITY.md           @usuario2
 >>>>>>> develop
+=======
+# CHANGELOG.md          @usuario1
+# SECURITY.md           @usuario2
+>>>>>>> c13ec49 (test)
 
 # ============================================================
 # FIN DEL ARCHIVO CODEOWNERS
