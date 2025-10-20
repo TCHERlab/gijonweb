@@ -14,9 +14,13 @@ git config push.default current
     
 
 
+Ajustes útiles para tu flujo
 
+Para que pull rebasee por defecto y auto-guarde cambios locales:
 
-
+git config --global pull.rebase true
+git config --global rebase.autoStash true
+git config --global rerere.enabled true
 
 
 

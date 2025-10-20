@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> c13ec49 (test)
 =======
 >>>>>>> c13ec49 (test)
 # @TCHERlab/reviewers
@@ -10,7 +13,10 @@
 # @TCHERlab/rev_design
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> develop
+=======
+>>>>>>> c13ec49 (test)
 =======
 >>>>>>> c13ec49 (test)
 
@@ -26,6 +32,7 @@
 *                       @TCHERlab/reviewers
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 docs/                   @TCHERlab/rev_content
 
 assets/                 @TCHERlab/rev_design
@@ -36,6 +43,8 @@ games/assets/           @TCHERlab/rev_design
 games/css/              @TCHERlab/rev_styles
 games/js/               @TCHERlab/rev_javascript          
 =======
+=======
+>>>>>>> c13ec49 (test)
 =======
 >>>>>>> c13ec49 (test)
 
@@ -74,13 +83,17 @@ Dockerfile              @TCHERlab/revisores
 # El equipo de backend y revisores validan los tests
 tests/                  @TCHERlab/backend @TCHERlab/revisores
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> develop
+=======
+>>>>>>> c13ec49 (test)
 =======
 >>>>>>> c13ec49 (test)
 
 
 # 🧑‍💻 INDIVIDUALES (opcional)
 # Ejemplo: si hay responsables específicos de ciertos archivos
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -97,6 +110,10 @@ README.md               @tchertutor
 # CHANGELOG.md          @usuario1
 # SECURITY.md           @usuario2
 >>>>>>> develop
+=======
+# CHANGELOG.md          @usuario1
+# SECURITY.md           @usuario2
+>>>>>>> c13ec49 (test)
 =======
 # CHANGELOG.md          @usuario1
 # SECURITY.md           @usuario2
