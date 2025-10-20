@@ -1,0 +1,349 @@
+:root{
+    /* Paleta base */
+    --baseColor: #E60000;
+    --darkColor: #222222;
+    --ligthColor: #dddddd;
+    --accentColor: #67f607;
+
+    /* Paleta version light */
+
+          --baseColor-light: hsl(from var(--baseColor)h s calc(l + 10));
+         --darkColor-light: hsl(from var(--darkColor) h s calc(l + 10));
+       --ligthColor-light: hsl(from var(--ligthColor) h s calc(l + 10));
+     --accentColor-light: hsl(from var(--accentColor) h s calc(l + 10));
+    /* Paleta  version ligther +20*/
+         --baseColor-lighter: hsl(from var(--baseColor)h s calc(l + 20));
+        --darkColor-lighter: hsl(from var(--darkColor) h s calc(l + 20));
+        --darkColor-lighter1: hsla(0, 0%, 87%, 0.616);
+
+      --ligthColor-lighter: hsl(from var(--ligthColor) h s calc(l + 20));
+    --accentColor-lighter: hsl(from var(--accentColor) h s calc(l + 20));
+
+    /* Paleta  version dark -10*/
+         --baseColor-dark: hsl(from var(--baseColor)h s calc(l - 10));
+        --darkColor-dark: hsl(from var(--darkColor) h s calc(l - 10));
+      --ligthColor-dark: hsl(from var(--ligthColor) h s calc(l - 10));
+    --accentColor-dark: hsl(from var(--accentColor) h s calc(l - 10));
+
+    /* Paleta   version darker -20*/
+         --baseColor-darker: hsl(from var(--baseColor)h s calc(l - 20));
+        --darkColor-darker: hsl(from var(--darkColor) h s calc(l - 20));
+      --ligthColor-darker: hsl(from var(--ligthColor) h s calc(l - 20));
+    --accentColor-darker: hsl(from var(--accentColor) h s calc(l - 20));
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body,
+html{
+    height: 100%;
+}
+/* Header y body */
+.logo{
+    background-color: var(--ligthColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.logo img{
+    width: 200px;
+}
+main{
+    margin-top: 19vh;
+    height: 80vh;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white; /* o el color que quieras */
+  z-index: 10; /* para que quede por encima del contenido */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--baseColor);
+}
+a{
+    text-decoration: none;
+    color: var(--ligthColor);
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5{
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* primer div */
+.img1{
+    background-image: url('../assets/img/img1.jpg');
+    min-height: 100%;}
+.img2{
+    background-image: url('../assets/img/img2.jpg');
+    min-height: 100%;}
+.img3{
+    background-image: url('../assets/img/img3.jpg');
+    min-height: 100%;}
+.img4{
+    background-image: url('../assets/img/img4.jpg');
+    min-height: 100%;}
+.img5{
+    background-image: url('../assets/img/img5.jpg');
+    min-height: 100%;}
+.conjuntoCards {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;  
+  gap: 16px;}
+.conjuntoCards .card {
+  flex: 1 1 calc(50% - 16px); 
+  max-width: 350px;   
+}
+.card {
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  height: 320px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 50px;
+  cursor: pointer;
+}
+.imgCard {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  transition: transform 0.8s ease;
+}
+.card:hover .imgCard {
+  transform: scale(1.1);
+}
+.info {
+  position: absolute;
+  bottom: -100%;   
+  left: 0;
+  width: 100%;
+  height: 50%;   
+  background: #00000083;
+  color: var(--ligthColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: bottom 0.5s ease;
+}
+.card:hover .info {
+  bottom: 0;
+}
+.evento{background-image: url(../assets/img/eventos.jpeg);}
+.parque{background-image: url(../assets/img/parques.jpg);}
+.insta{background-image: url(../assets/img/insta.jpg);}
+.monumento{background-image: url(../assets/img/monumento.jpg);}
+button{
+    background-color: var(--darkColor-lighter);
+    color: var(--ligthColor);
+    padding: .5rem;
+    border-radius: .5rem;
+}
+@keyframes zoom {
+  0% {
+      opacity: 0;
+    }
+    50% {
+      transform: translateY(-10%) scale(1);
+      /* transform: scale(1.1); */
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-10%) scale(1.05);
+ 
+    
+    opacity: 1;           /* 👈 mantiene visible */
+  }
+}
+
+/* segundo div */
+
+.carousel{
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    gap: 1em;
+    scroll-behavior: smooth;
+    anchor-name: --carousel;
+    scroll-snap-type: x mandatory;
+    scroll-marker-group:after;}
+.carousel::scroll-marker-group{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 10px;}
+.cardCarr::scroll-marker{
+    content: '';
+    width:1em;
+    height: 1em;
+    background-color: var(--baseColor);
+    border-radius: 50%;}
+.cardCarr::scroll-marker:target-current{
+    background-color: var(--baseColor-lighter);}
+.carousel::-webkit-scrollbar{
+    display: none;}
+
+.carousel::scroll-button(right),
+.carousel::scroll-button(left){
+    content: '→';
+    border: none;
+    background-color: var(--baseColor);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding-bottom: .1em;
+    cursor: pointer;
+    position: fixed;
+    position-anchor: --carousel;
+    position-area: right center;
+    translate: -100%;
+    margin-top: 200px;}
+.carousel::scroll-button(left){
+    content: '←';
+    position-area: left center;
+    translate: 100%;}
+.cardCarr .fond{
+  background-color: var(--darkColor-lighter1);
+  color: var(--baseColor);
+  margin: 0;
+  padding: 1rem;
+ }
+.carousel::scroll-button(right):disabled,
+.carousel::scroll-button(left):disabled{
+    opacity: 0.5;
+    cursor: auto;}
+.cardCarr{
+    margin-top: 200px;
+    scroll-snap-align: start;
+    flex: 0 0 30em;
+    aspect-ratio:5 / 3;
+    background-color: black;
+    border-radius: .5em;
+    text-align: center;
+    align-content:flex-start}
+    h3{
+      background-color: var(--darkColor-lighter1);
+      padding: 1rem;
+    }
+.carousel .cardCarr:first-child{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzyLpFdLiCLwQVrQhccGQq-xtCsPqugttoCA&s);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(2){
+  background-image: url(https://drupal.gijon.es/sites/default/files/2019-02/Gijon_Museo_PueblodeAsturias.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(3){
+  background-image: url(https://lh3.googleusercontent.com/gps-cs-s/AC9h4no4iZ3q-fNaengACu4Dct1v4MPWCcJJWETINVRlnV1J955-NERVP69CpjJt5xMBcSgEEaSCFIAfCHXPEQbQHcAXLOXC4iSBnULZCGJkoJd73QbGEnk3NpeaLPj7LrukOYYmRYqo=s680-w680-h510-rw);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(4){
+  background-image: url(https://orlegisports.com/wp-content/uploads/2024/02/el-molinon-2030-proyecto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(5){
+  background-image: url(https://s1.ppllstatics.com/elcomercio/www/pre2017/multimedia/prensa/noticias/201405/05/fotos/16738872.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(6){
+  background-image: url(https://media.traveler.es/photos/61376329ea50dbd37eadeddc/master/w_1600%2Cc_limit/193549.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(7){
+  background-image: url(https://www.lavozdeasturias.es/default/2022/05/06/00121651847409298527722/Foto/obraa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(8){
+  background-image: url(https://lh3.googleusercontent.com/p/AF1QipNz6Wvj9_yTPyasNnqAo03ZsK46VKO0kYFkdC53=s294-w294-h220-n-k-no);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(9){
+  background-image: url(https://lh3.googleusercontent.com/p/AF1QipMtVxXd8kE5u54PtNV5Gu889T6OulqrzC82XhN5=s680-w680-h510-rw);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(10){
+  background-image: url(https://exploraplaya.es/wp-content/uploads/2021/02/parque-de-la-providencia-gi-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(11){
+  background-image: url(data:image/jpeg;base64,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);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(12){
+  background-image: url(https://exploraplaya.es/wp-content/uploads/2021/01/parque-isabel-la-catolica-g.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(13){
+  background-image: url(https://s1.ppllstatics.com/elcomercio/www/multimedia/2025/08/19/cerro-santa-catalina-defensa-RvjROGQ4rpYF8ipeQvdmuYI-1200x840@El%20Comercio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(14){
+  background-image: url(https://blog.telecable.es/embed/5c4f22d36bef6695509d800b6ed57c2d031721215436/feria-muestras-gijon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(15){
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS451fcpGI5qMZbdEDPHBdBi__8HOVNMfS-9g&s);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(16){
+  background-image: url(https://agencia-asturias.com/wp-content/uploads/2017/03/cimadevilla-gijon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(17){
+  background-image: url(https://docomomoiberico.com/wp-content/uploads/2010/05/E_AST_A19_22-768x532.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(18){
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e5/Letronas_de_Gijon_edited.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(19){
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl-zpNcvL3YuqqKN3FD0haLFojYf8UQ_Zp6Q&s);
+  background-repeat: no-repeat;
+  background-size: cover;}
+.carousel .cardCarr:nth-child(20){
+  background-image: url(https://www.castillosdeespaña.es/sites/castillosdeespana.es/files/images/FC/ASTURIAS/gijonsantacatalinabaja.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;}
+  
+  @media(max-width:500px){
+    .cardCarr{
+        flex: 0 0 100%;
+    }
+}
+
+
+
+
+
+
+
+
+

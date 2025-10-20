@@ -1,0 +1,257 @@
+{
+  "title": "¿Verdad o Patraña? — Gijón Edition",
+  "description": "Juego tipo trivial sobre Gijón: historia, cultura, mitos y tradiciones. Contiene tres niveles temáticos.",
+  "levels": [
+    {
+      "id": 1,
+      "name": "Gijón a simple vista",
+      "theme": "Monumentos, plazas, esculturas, edificios conocidos.",
+      "questions": [
+        {
+          "text": "Pelayo señala con el dedo porque está indicando el camino a Covadonga.",
+          "answer": false,
+          "explanation": "No hay constancia histórica de que la estatua señalase hacia Covadonga; su gesto es más simbólico que indicativo."
+        },
+        {
+          "text": "La estatua de Jovellanos en la plaza del mismo nombre lleva un libro en la mano.",
+          "answer": true,
+          "explanation": "Representa su amor por la cultura y la educación; el libro simboliza su legado intelectual."
+        },
+        {
+          "text": "En el Cerro de Santa Catalina, el “Elogio del Horizonte” está orientado exactamente hacia el mar Cantábrico.",
+          "answer": true,
+          "explanation": "Chillida diseñó la obra para integrarse con el horizonte, ofreciendo vistas panorámicas al Cantábrico."
+        },
+        {
+          "text": "El Ayuntamiento de Gijón tiene un balcón secreto que solo se usa en Semana Grande.",
+          "answer": false,
+          "explanation": "No existe ningún balcón secreto; es un mito urbano divertido."
+        },
+        {
+          "text": "La Plaza Mayor de Gijón fue construida completamente con piedra traída de Covadonga.",
+          "answer": false,
+          "explanation": "La plaza se construyó con materiales locales, no con piedras de Covadonga."
+        },
+        {
+          "text": "El edificio de la Universidad Laboral fue un hospital militar antes de ser universidad.",
+          "answer": false,
+          "explanation": "Originalmente fue un orfanato para hijos de mineros fallecidos en 1946 y luego un centro de formación laboral, nunca hospital militar."
+        },
+        {
+          "text": "Desde lo alto de la Laboral se puede ver el mar.",
+          "answer": true,
+          "explanation": "La ubicación estratégica del edificio permite vistas espectaculares del Cantábrico."
+        },
+        {
+          "text": "En Cimavilla, hay una escultura dedicada a los pescadores que incluye auténticas redes de pesca.",
+          "answer": true,
+          "explanation": "Es un homenaje real a la tradición marinera de Gijón."
+        },
+        {
+          "text": "En Gijón hay más esculturas que semáforos.",
+          "answer": false,
+          "explanation": "Una exageración humorística; en realidad hay más semáforos que esculturas."
+        },
+        {
+          "text": "El “Elogio del Horizonte” también es conocido popularmente como “El váter de King Kong”.",
+          "answer": true,
+          "explanation": "Apodo popular que hace referencia a la forma de la escultura; es humor local."
+        },
+        {
+          "text": "En el puerto deportivo hay una escultura formada por letras gigantes que dice “Gijón”.",
+          "answer": true,
+          "explanation": "Es un punto fotográfico moderno muy visitado por turistas y locales."
+        },
+        {
+          "text": "La Plaza del Parchís se llama así por el tablero de parchís.",
+          "answer": true,
+          "explanation": "El apodo viene del diseño de los jardines, que recuerdan al tablero del parchís, ideado en 1946 por Manuel Marco."
+        },
+        {
+          "text": "En el Palacio Revillagigedo hay un fantasma que solo aparece los días de lluvia.",
+          "answer": false,
+          "explanation": "Leyenda urbana divertida, sin pruebas históricas."
+        },
+        {
+          "text": "La playa de San Lorenzo tiene forma de concha.",
+          "answer": true,
+          "explanation": "Su curva natural recuerda a una concha, característica icónica de la ciudad."
+        },
+        {
+          "text": "La iglesia de San Pedro está justo en el punto donde nació la ciudad de Gijón.",
+          "answer": true,
+          "explanation": "La iglesia se construyó sobre el núcleo histórico más antiguo de la ciudad."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Historias del mar y la sidra",
+      "theme": "Tradiciones, leyendas, fiestas, costumbres marineras.",
+      "questions": [
+        {
+          "text": "En la Semana Grande, es tradición lanzar botellas de sidra vacías al mar como ofrenda.",
+          "answer": false,
+          "explanation": "Es un mito; aunque hay tradiciones con sidra, no se lanzan botellas al mar."
+        },
+        {
+          "text": "La sidra natural asturiana debe escanciarse siempre desde al menos un metro de altura.",
+          "answer": true,
+          "explanation": "Así se oxigena y se potencia el aroma, es la técnica tradicional de escanciado."
+        },
+        {
+          "text": "En Gijón existe una “Ruta de la Sidra” oficial con más de 40 chigres.",
+          "answer": true,
+          "explanation": "Es un recorrido turístico y cultural muy popular para degustar sidra natural."
+        },
+        {
+          "text": "Las olas del Cantábrico llegan a veces hasta el muro de San Lorenzo y empapan a los paseantes.",
+          "answer": true,
+          "explanation": "Especialmente en mareas altas o temporal, es bastante común."
+        },
+        {
+          "text": "En Gijón se celebra una regata de botellas de sidra vacías cada verano.",
+          "answer": false,
+          "explanation": "No existe tal regata; es una idea divertida pero falsa."
+        },
+        {
+          "text": "Los marineros gijoneses tienen una canción para pedir buen tiempo antes de salir a faenar.",
+          "answer": false,
+          "explanation": "Es un mito popular, no hay evidencia de canciones rituales."
+        },
+        {
+          "text": "Algunos marineros gijoneses llevaban un trozo de carbón en el bolsillo para alejar las tormentas.",
+          "answer": true,
+          "explanation": "Tradición supersticiosa documentada entre marineros locales."
+        },
+        {
+          "text": "En Gijón hubo un puerto ballenero durante siglos.",
+          "answer": true,
+          "explanation": "Históricamente, Gijón tuvo actividad ballenera en la costa asturiana."
+        },
+        {
+          "text": "En las espichas de Gijón, la sidra se sirve desde toneles llamados “pipas”.",
+          "answer": true,
+          "explanation": "Es una costumbre real de la cultura sidrera."
+        },
+        {
+          "text": "En la Semana Negra también se pueden encontrar casetas donde se escancia sidra.",
+          "answer": true,
+          "explanation": "La festividad combina literatura y cultura asturiana, incluyendo sidra."
+        },
+        {
+          "text": "En el puerto viejo había una fuente donde los marineros bebían agua bendecida antes de zarpar.",
+          "answer": false,
+          "explanation": "Mito urbano; no hay constancia histórica."
+        },
+        {
+          "text": "Durante el verano, hay concursos oficiales de escanciadores.",
+          "answer": true,
+          "explanation": "Competencias reales y populares que premian la destreza en el escanciado."
+        },
+        {
+          "text": "El barrio de pescadores de Cimadevilla era conocido por tener más gatos que personas.",
+          "answer": true,
+          "explanation": "Forma de decir que era un barrio muy vivo y con muchos gatos, aunque exagerado."
+        },
+        {
+          "text": "En el puerto de Gijón hay una campana que los marineros hacían sonar antes de partir a alta mar.",
+          "answer": false,
+          "explanation": "Es una leyenda divertida, pero no existió tal tradición."
+        },
+        {
+          "text": "Se dice que los gijoneses pueden distinguir una sidra buena solo con el sonido al escanciarla.",
+          "answer": true,
+          "explanation": "Los expertos sidreros pueden identificar calidad por el chorro y el “cantar” de la sidra."
+        },
+        {
+          "text": "La sidra llegó a ser tan importante que existía un impuesto especial para regular su venta en el siglo XVIII.",
+          "answer": true,
+          "explanation": "Documentado en archivos históricos: la sidra tenía regulación fiscal debido a su valor económico."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pasión Rojiblanca",
+      "theme": "Sporting de Gijón, afición, historias y mitos.",
+      "questions": [
+        {
+          "text": "El estadio de El Molinón es el más antiguo de España que sigue en uso.",
+          "answer": true,
+          "explanation": "Inaugurado oficialmente en 1908, El Molinón sigue acogiendo partidos, siendo el estadio activo más antiguo del país."
+        },
+        {
+          "text": "El nombre “El Molinón” viene de un molino que había cerca del río Piles.",
+          "answer": true,
+          "explanation": "Antes de convertirse en estadio, la zona tenía un molino; de ahí el nombre “Molinón”."
+        },
+        {
+          "text": "En los años 80, el Sporting estrenó una mascota oficial con forma de balón llamada “Molinín”.",
+          "answer": false,
+          "explanation": "Es un mito urbano; el club nunca tuvo una mascota oficial con ese nombre."
+        },
+        {
+          "text": "Los colores rojo y blanco del Sporting provienen del escudo de Gijón.",
+          "answer": true,
+          "explanation": "Los colores rojiblancos reflejan la tradición local y el escudo de la ciudad, adoptados desde la fundación del club en 1905."
+        },
+        {
+          "text": "Quini es el jugador más querido en la historia del club.",
+          "answer": true,
+          "explanation": "Quini, goleador histórico, es idolatrado por los aficionados y símbolo de la pasión rojiblanca."
+        },
+        {
+          "text": "Durante un derbi, un aficionado lanzó una fabada al campo como protesta.",
+          "answer": false,
+          "explanation": "Aunque divertida, esta historia es falsa; los aficionados son apasionados, pero no llegaron a lanzar fabadas."
+        },
+        {
+          "text": "En las gradas de El Molinón se han llegado a cantar villancicos para animar al equipo.",
+          "answer": true,
+          "explanation": "En épocas navideñas, los aficionados han llevado cánticos de villancicos adaptados al club como forma de animar a los jugadores."
+        },
+        {
+          "text": "El Sporting tiene una peña llamada “Los Guajes del Infierno”.",
+          "answer": false,
+          "explanation": "Ninguna peña oficial lleva ese nombre; es un juego de palabras que circula entre aficionados."
+        },
+        {
+          "text": "El himno del Sporting menciona a Gijón por su nombre.",
+          "answer": true,
+          "explanation": "Compuesto para rendir homenaje al club y su ciudad, el himno hace referencia explícita a Gijón."
+        },
+        {
+          "text": "El Molinón es tan antiguo que dicen que Pelayo jugó el primer partido allí, sin botas ni reglas.",
+          "answer": false,
+          "explanation": "Humor histórico: Pelayo vivió siglos antes de que existiera el fútbol en España."
+        },
+        {
+          "text": "El Sporting fue el primer club asturiano en jugar en Primera División.",
+          "answer": true,
+          "explanation": "En 1944, el club se convirtió en el primero de Asturias en competir en la máxima categoría del fútbol español."
+        },
+        {
+          "text": "Los primeros escudos del Sporting se pintaban a mano con pintura de barco.",
+          "answer": false,
+          "explanation": "Es una exageración humorística; los primeros escudos se diseñaban artesanalmente, pero no con pintura de barco."
+        },
+        {
+          "text": "El estadio fue escenario de partidos del Mundial de 1982.",
+          "answer": true,
+          "explanation": "Durante el Mundial de España 1982, El Molinón albergó varios encuentros de la fase de grupos."
+        },
+        {
+          "text": "En Gijón existe una fuente donde los aficionados lavan las bufandas tras los derbis.",
+          "answer": false,
+          "explanation": "Mito divertido; no existe tal tradición, pero refleja la pasión por el club."
+        },
+        {
+          "text": "El Sporting nunca ha cambiado su escudo desde su fundación.",
+          "answer": false,
+          "explanation": "El escudo ha sufrido varias modificaciones a lo largo de los años, aunque siempre manteniendo los colores rojiblancos."
+        }
+      ]
+    }
+  ]
+}

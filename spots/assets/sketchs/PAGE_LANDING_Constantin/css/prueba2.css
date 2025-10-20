@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+
+.cabecera img{
+height: 150px;
+width: auto;
+}
+
+nav{
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-top: 0px ;
+    background-color: red;
+   
+    
+}
+main{
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.links{
+    padding: 0.8rem;
+    
+ 
+}
+
+
+.links:hover {
+    background-color: red;
+    color: white;
+    padding: 0.8rem;
+    animation: expansion ;
+    animation-duration: 4s;
+}
+
+@keyframes zoom {
+    0%{
+        transform: translateX(-50%) scale(1);
+    }
+    100%{
+        transform: translateX(-50%) scale(1.2);
+    }
+} 
+
+@keyframes expansion {
+
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 300px;
+    }
+
+    100%{
+        width: 100px;
+    }
+    
+}
+
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4{
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+
+.bgimg-1{
+    background-image: url("../assets/img/ElLlanoPG.jpg");
+    min-height: 100%;
+}
+
+.bgimg-2{
+    background-image: url("../assets/img/gijon_parques_isabel_lacatolica_patos_roberto_egea_acebal.jpg");
+    min-height: 800px;
+}
+
+.bgimg-3{
+    background-image: url("../assets/img/parque-de-la-providencia-gi-1.jpg");
+    min-height: 800px;
+}
+
+.bgimg-4{
+background-image: url("../assets/img/acuario-gijon_888.jpg");
+min-height: 800px ;
+
+}
+
+.info{
+    position: absolute;
+    background:linear-gradient(#6500D1,#BE5861,#E61212,#693B5C) ;
+    color: white;
+    font-size: 22px;
+    top: 10%;
+    left: 50%;
+    padding: 1.2rem;
+    transform: translateX(-50%);
+}   
+
+
+.info::before{
+    content:"👨‍🏫" ;
+}
+
+.info:hover{
+    
+    animation: zoom;
+    animation-duration:2s ;
+    background-color: crimson;
+    color: black;
+    transform: translateX(-50%);
+}
+
+
+.parrafo{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    margin: 0.1rem;
+}
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.galeria img{
+    width: 200px;
+    height: auto;
+}
+.fotos{
+    margin: 1.1rem;
+    border: 2px solid black;
+    padding: 1.2rem;
+    background-color: red;
+    opacity:0.8;
+    
+    
+}
+
+    
