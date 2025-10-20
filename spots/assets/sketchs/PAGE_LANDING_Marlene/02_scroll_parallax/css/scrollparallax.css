@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    background-color: aqua;
+}
+
+header{
+    background-color: antiquewhite;
+    height: 15vh;
+    position: relative;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+nav{
+    background-color: rgb(226, 207, 183);
+    height: 50px;
+    padding: 10px;    
+    position: sticky;
+    top:0;
+    z-index: 2;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    
+    list-style: none;
+    padding-top: 10px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+article{
+    position: relative;
+}
+
+div{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img1,
+#img2,
+#img3{
+    padding-top: 60px;
+
+}
+
+.imge1{
+    background-image: url("../assets/77a003942db2d64587e1b47dd7383637.jpg");
+    height: 990px;
+}
+
+.imge2{
+    background-image: url("../assets/img-20200119-123015-largejpg.jpg");
+    height: 990px;
+
+}
+
+.imge3{
+    background-image: url("../assets/que-ver-hacer-en-gijon.webp");
+    height: 990px;
+}
+
+.lorem{
+    margin: 1rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.61);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    animation: lor 1s forwards;
+    opacity: 0;
+
+}
+
+@keyframes lor {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+
+.lorem:nth-child(1){
+    animation-delay: 0.1s;
+}
+
+.lorem:nth-child(2){
+    animation-delay: 0.3s;
+}
+
+.lorem:nth-child(3){
+    animation-delay: 0.5s;
+}
+
+.lorem img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+footer{
+    position: relative;
+    background-color: rgb(170, 146, 114);
+    height: 5%;
+    padding: 50px;
+}
+
+.futer {
+  font-family: "Playwrite AU QLD" cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+@media (min-width:1200px) {
+    .imge1, .imge2, .imge3{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        height: 800px;
+
+        gap: 1em;
+        width: 100%;
+        overflow-x: auto ;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        padding: 20px;
+    }
+    
+    .imge1::scroll-marker-group{
+        display: flex;
+        justify-content: center;
+        gap: 0.5em;
+    }
+
+    .imge1::scroll-marker{
+        content: "";
+        height: 1em;
+        width: 1em;
+        background-color: black;
+    }
+
+    .imge1::scroll-button(right){
+        content: ">";
+        border: none;
+        background-color: aliceblue;
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+        padding: 0.2rem;
+        position: fixed;
+        position-anchor:--carrusel;
+        position-area: right center;
+        translate: -100%;
+
+    }
+
+    .imge1::-webkit-scrollbar{
+        display: none;
+    }
+
+    .lorem{
+        flex: 0 0 20rem;
+        padding: 1em;
+        border-radius: 0.5em;
+        text-align: center;
+        align-items: center;
+
+        width: 700px;;
+
+        aspect-ratio: 3/1;
+        scroll-snap-align: start;
+    }
+
+
+
+
+    
+}

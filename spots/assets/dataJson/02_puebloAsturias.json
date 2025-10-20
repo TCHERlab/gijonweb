@@ -1,0 +1,21 @@
+{
+    "titulo": "pueblo de asturias",
+
+"introducciones":{
+
+    "introduccion": "El Muséu del Pueblu d’Asturies fue creado en 1968 por iniciativa del Ayuntamiento de Gijón/Xixón y la Cámara de Comercio Industria y Navegación con el objetivo de conservar estudiar y difundir la memoria del pueblo asturiano. El museo coordina la Red de Museos Etnográficos de Asturias promovida  por la Consejería de Cultura del Principado de Asturias para aunar los esfuerzos y recursos de otros museos similares. El museo ocupa un recinto arbolado de 35.000 m² y posee una charca de agua salobre  recuerdo de la marisma que en otro tiempo dominaba la desembocadura del río Piles.",
+ 
+ "queVeras": "La colección del museo comprende testimonios materiales e inmateriales y abarca contenidos muy amplios por lo que se organiza en cinco áreas: museográfica  musical fotográfica documentación oral.Puede verse una selección de piezas en la Red Digital de Colecciones de Museo de España."
+},
+
+"areaMuseografica" : "Está formada por objetos representativos de la vida cotidiana producidos a lo largo del siglo XIX y la primera mitad del XX entre los que cabe destacar los relacionados con el equipamiento doméstico la agricultura y la ganadería los oficios tradicionales el ocio y la religiosidad popular.",
+
+"areaMusical" : "Comprende las colecciones de naturaleza musical expuestas al público en el Museo de la Gaita y distribuidas en cuatro bloques: gaitas del mundo gaita asturiana instrumentos tradicionales asturianos y sonadores de producción industrial así como también las partituras y grabaciones comerciales de música asturiana en distintos soportes.",
+
+"areaFotografica" : "Más de un millón de fotografías y tarjetas postales procedentes de archivos de fotógrafos profesionales y aficionados investigadores periódicos y álbumes familiares disponibles a través de la Fototeca Municipal. Con un repositorio digital donde se pueden ver y consultar los fondos fotográficos. Las imágenes publicadas pertenecen a cincuenta fondos fotográficos en los que están representados algunos de los más relevantes fotógrafos profesionales y aficionados de Asturias así como multitud de temáticas y numerosas localidades. Las fechas de estas imágenes abarcan desde 1880 a 2000 En estos momentos están publicadas 30.000 fotografías y a finales de este año se espera alcanzar la cifra de cien mil.",
+"article":{
+    "areadeDocumentacion" : "Abarca los archivos de documentos personales (correspondencia y memorias) de empresas y comercios el fondo gráfico (carteles etiquetas grabados); el fondo cartográfico y la colección de publicaciones periódicas. Este área pone a disposición de investigadores y usuarios en general una biblioteca especializada en historia y antropología. Descubre algunas de las colecciones disponibles.",
+
+    "memoriaOral" : "El museo es la sede del Archivo de Historia Oral de Asturias que promueve la recopilaciónconservación y difusión del patrimonio oral de Asturias con la finalidad de difundir la información conservada en la memoria y la experiencia de los protagonistas de nuestro pasado reciente."
+}
+}

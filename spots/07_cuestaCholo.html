@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sitio</title>
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+</head>
+<body>
+  <header>
+    <div class="botonIdioma">
+      <button>ES</button>
+      <button>EN</button>
+      <button>AST</button>
+    </div>
+    <div class="logo">
+      <!-- pequeño recuadro con fondo rojo (Gijón) y logo del sitio-->
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="sitios.html">Games</a></li>
+        <li><a href="otras_pags.html">Sitios</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  
+  <main>
+    <div class="tituloIntroductivo">
+        <h1>Sitio</h1>
+        <!--Título del lugar -->
+
+        <p>Pequeña introducción del lugar</p>
+      
+    </div>
+
+    <article>
+      <!-- <p>Este es un texto sobre la web o el proyecto...</p> -->
+    </article>
+  </main>
+
+    <section class="parte1">
+        <div class="texto">
+            <p>Parte 1 del contenido</p>
+            <p>Parte 1 del contenido</p>
+        </div>
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+  
+      <!-- sección de contenido principal. A la izq el texto y a la drch la img -->
+    </section>
+
+    <section class="parte2">
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 2 del contenido</p>
+            <p>Parte 2 del contenido</p>
+        </div>
+      <!-- otra sección, como la anterior pero el texto al lado contrario (drch) -->
+    </section>
+    
+    <section class="parte3">
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 3 del contenido</p>
+            <p>Parte 3 del contenido</p>
+        </div>
+      <!-- otra sección, como la primera -->
+    </section>
+   <section class="parte4">
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 4 del contenido</p>
+            <p>Parte 4 del contenido</p>
+            <p>Parte 4 del contenido</p>
+        </div>
+      <!-- otra sección, como la primera -->
+    </section>
+
+  <article>
+    <!-- contenido secundario, más info (texto, imgs,...), tados curiosos,... -->
+  </article>
+
+  <div class="game">
+
+  </div>
+
+  <footer>
+    <p>© 2025</p>
+  </footer>
+
+ 
+  
+
+  <script type="application/json" id="cuestaDelCholo">
+    
+
+{
+"title":"Cuesta del Cholo" ,
+
+"introduction":"También conocida como Tránsito de las Ballenas, es una calle empinada que conecta el puerto deportivo con el barrio histórico de CImadevilla en Gijón",
+
+
+
+"section1":{
+
+"paragraph1":"El origen de Cholo no está del todo claro. En dialecto local, podría aludir a mestizo, aunque el motivo concreto por el que se empezó a usar este apodo sigue siendo un misterio. El término Tránsito de las Ballenas proviene del pasado ballenero de la zona: era precisamente aquí donde se despiezaban las ballenas recién capturadas hasta 1722 .Anteriormente se la conocía por Calle de la Riba o Canto. Así se cita en el catastro del Marqués de la Ensenada, en referencia al murallón que todavía existe",
+
+"paragraph2" : "A principios del siglo XX, la Cuesta era una ruta activa donde las pescaderas llevaban pescado o restos de ballena, desde el puerto hasta la ciudad. También formaba parte de una antigua muralla o muro protector, conocida como Muro de la Riba. que servía de defensa marítima."
+
+},
+
+"section2":{ 
+    
+"paragraph1": "Aquí podeis ver una fotografía tomada por Mario Arguelles Rubiera que retrara la llegada de una ballena varada.",
+  
+"paragraph2": "El Tránsito de las Ballenas, al otro lado de la cuesta del cholo. Es una calle histórica de Gijón que en el pasado servía para transportar pescado desde el puerto, especialmente tras la caza de ballenas. esencial para las pescDurante siglos, fue una vía de trabajo aderas de Cimavilla. Esto se prolongo hasta mediados de XVIII. En los últimos años, ha sido objeto de reformas urbanas"
+
+},
+
+ "section3":{
+ "paragraph1": "Aunque no todos los bares tienen una cocina completa, lo más típico es tomar una sidra bien escanciada acompañada de algo ligero como pipas, cacahuetes o sardinas a la plancha — especialmente en verano",
+
+
+ "paragraph2": "Lo mas tipico es tomar una sidra bien escanciada acomopañada de algo ligero"
+
+ },
+
+
+"Section4":{
+"paragraph1": "Histórico local, ahora rebautizado como Mercante, mar y brasas, sirve pescados, carnes y arroces a la brasa en un entorno cargado de historia y con sabor a tradición familiar. Inaugurado en 1966 fue la clave para luego el boom que vivio la zona en los 90, fue apartir de los 90 cuando se asocio a la idea de subir al cholo a tomarme unas",
+
+"paragraph2": "La cuesta del cholo empezó, como simplemente ruta activa de mercancia de pescado. Con los años y en gradisima parte gracias al local el Mercante, fue teniendo un auge progresivo, que se consolido a mediados de los 90 hasta ahora, que se ha convertido en un punto turistico.",
+
+"paragraph3": "https://elblogdeacebedo.blogspot.com/2021/03/enorme-cetaceo-capturado-en-gijon-en.html?utm_source=chatgpt.com ///"
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+<script>
+
+const raw = document.querySelector("#cuestaDelCholo").textContent;
+console.log(raw);
+const data = JSON.parse(raw);
+console.log(data);
+
+
+
+document.querySelector(".tituloIntroductivo").textContent = data.introduction
+
+document.querySelector(".parte1 .texto p:nth-child(1)").textContent = data.section1.paragraph1
+
+document.querySelector(".parte1 .texto p:nth-child(2)").textContent = data.section1.paragraph2
+
+document.querySelector(".parte2 .texto p:nth-child(1)").textContent = data.section2.paragraph1
+
+document.querySelector(".parte2 .texto p:nth-child(2)").textContent = data.section2.paragraph2
+
+document.querySelector(".parte3 .texto p:nth-child(1)").textContent = data.section3.paragraph1
+
+document.querySelector(".parte3 .texto p:nth-child(2)").textContent = data.section3.paragraph2
+
+document.querySelector(".parte4 .texto p:nth-child(1)").textContent = data.Section4.paragraph1
+
+document.querySelector(".parte4 .texto p:nth-child(2)").textContent = data.Section4.paragraph2  
+
+
+  </script>
+
+  <script type="application_json" id="cuestaDelCholo_refs">
+
+
+
+
+
+     {
+  "section1": {
+"image1": "assets/img/07_cuestaDelCholo/CUESTA2BDEL2BCHOLO.webp"
+  },
+  "section2": {
+"image1": "assets/img/07_cuestaDelCholo/BallenaVarada.webp"
+  },
+  "section3": {
+"image1": "assets/img/07_cuestaDelCholo/Seccion3.jpg"
+  },
+"section4": {
+"image1": "assets/img/07_cuestaDelCholo/cuestaDelCholoFoto2.webp"
+  }
+}
+
+    
+
+
+
+
+  </script>
+
+<script>
+const rawRefs = document.querySelector("#cuestaDelCholo_refs").textContent;
+console.log(rawRefs);
+const dataRefs = JSON.parse(rawRefs);
+console.log(dataRefs);
+
+document.querySelector(".parte1 .imagen img").src = dataRefs.section1.image1;
+
+document.querySelector(".parte2 .imagen img").src = dataRefs.section1.image2;
+
+document.querySelector(".parte2 .imagen img").src = dataRefs.section2.image1;
+
+document.querySelector(".parte3 .imagen img").src = dataRefs.section3.image1;
+
+document.querySelector(".parte4 .imagen img").src = dataRefs.section4.image1;
+
+</script>
+
+</body>
+</html>
+
+
+
+

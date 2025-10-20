@@ -1,0 +1,21 @@
+{
+ "titulo" : "Parque Fluvial",
+
+ "introduccion" : "El Parque Fluvial de Gijón surgió gracias a un proyecto de recuperación y  revalorización  del entorno natural del río Piles. Se trabajo en la restauración de los márgenes del rio y se crearon zonas de recreación y esparcimiento para  los visitantes.",
+
+"section1":{
+    
+    "situacionyExtension" : "El Parque Fluvial de Gijón se encuentra en la ciudad de Gijón, en la provincia de Asturias, al norte de España. El parque cuenta con una extensión de más de 20 hectáreas y se extiende a lo largo de másde 5 kilómetros de recorrido El parque se inauguró  en 2007."
+},
+
+"florayFauna" : "Flora y fauna del parque El Parque Fluvial de Gijón es un enclave natural de gran valor ecológico. Cuenta con una amplia variedad de especies de árboles y plantas, así como de fauna autóctona. Entre las especies animales que se pueden avistar en el parque destacan aves como patos, garzas, cormoranes y martines pescadores, así como también peces como truchas y salmones.",
+
+"senderismoyCiclismo" : "El parque cuenta con numerosos senderos y rutas para recorrer a pie o en bicicleta.El recorrido transcurre a lo largo del río Piles y ofrece un gran paisaje natural." ,
+
+"article":{
+
+    "pescaDeportiva" : "El río Piles es un espacio apto para la práctica de la pesca deportiva. En el parque se encuentra una zona autorizada para la pesca.",
+    
+    "picnicyMerenderos" : "El Parque Fluvial de Gijón cuenta con varias zonas habilitadas para realizar picnic y meriendas. Estas zonas cuentan con mesas, sillas y barbacoas."
+}
+}

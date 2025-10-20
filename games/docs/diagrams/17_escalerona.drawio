@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.7">
+  <diagram id="xZ7hYnAzAY4ilCINoXz5" name="escalerona">
+    <mxGraphModel dx="1418" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bP15YRuTJW6j496chkiZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bP15YRuTJW6j496chkiZ-1" target="bP15YRuTJW6j496chkiZ-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP15YRuTJW6j496chkiZ-1" value="Juego 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="264" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP15YRuTJW6j496chkiZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="bP15YRuTJW6j496chkiZ-2" target="bP15YRuTJW6j496chkiZ-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP15YRuTJW6j496chkiZ-25" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bP15YRuTJW6j496chkiZ-14" vertex="1" connectable="0">
+          <mxGeometry x="0.075" y="5" relative="1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bP15YRuTJW6j496chkiZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="bP15YRuTJW6j496chkiZ-2" target="bP15YRuTJW6j496chkiZ-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP15YRuTJW6j496chkiZ-24" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bP15YRuTJW6j496chkiZ-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bP15YRuTJW6j496chkiZ-2" value="Es la bandera de&amp;nbsp;&lt;br&gt;Gijón" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="264" y="335" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bP15YRuTJW6j496chkiZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="bP15YRuTJW6j496chkiZ-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="324" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="324" y="640" />
+              <mxPoint x="164" y="640" />
+              <mxPoint x="164" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bP15YRuTJW6j496chkiZ-3" value="Sigue jugando" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="264" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP15YRuTJW6j496chkiZ-6" value="Acertaste" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="544" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

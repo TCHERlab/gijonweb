@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sitio</title>
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+</head>
+<body>
+  <header>
+    <div class="botonIdioma">
+      <button>ES</button>
+      <button>EN</button>
+      <button>AST</button>
+    </div>
+    <div class="logo">
+      <!-- pequeño recuadro con fondo rojo (Gijón) y logo del sitio-->
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="sitios.html">Games</a></li>
+        <li><a href="otras_pags.html">Sitios</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  
+  <main>
+    <div class="tituloIntroductivo">
+        <h1>Sitio</h1>
+        <!--Título del lugar -->
+
+        <p>Pequeña introducción del lugar</p>
+      
+    </div>
+
+    <article>
+      <p>Este es un texto sobre la web o el proyecto...</p>
+    </article>
+  </main>
+
+    <section class="parte1">
+        <div class="texto">
+            <p>Parte 1 del contenido</p>
+        </div>
+        <div class="imagen">
+            <img src=""  alt="imagen referente al contenido">
+        </div>
+      <!-- sección de contenido principal. A la izq el texto y a la drch la img -->
+    </section>
+
+    <section class="parte2">
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 2 del contenido</p>
+        </div>
+      <!-- otra sección, como la anterior pero el texto al lado contrario (drch) -->
+    </section>
+    
+    <section class="parte3">
+        <div class="imagen">
+            <img src="" alt="imagen referente al contenido">
+        </div>
+        <div class="texto">
+            <p>Parte 3 del contenido</p>
+        </div>
+      <!-- otra sección, como la primera -->
+    </section>
+
+  <article>
+    <!-- contenido secundario, más info (texto, imgs,...), tados curiosos,... -->
+  </article>
+
+  <div class="game">
+
+  </div>
+
+  <footer>
+    <p>© 2025</p>
+  </footer>
+
+ <script  type="application/json" id="parqueIsabelCatolica" >
+{
+    "section1": {
+        "title":"Parque Isabel la Católica",
+        "introduction": "Está situado junto al estadio de El Molinón y al río Piles, muy cerca de la playa de San Lorenzo. Su ubicación lo convierte en una de las principales zonas de recreo, paseo y encuentro para vecinos y visitantes.",
+        "paragraph": "El Parque Isabel La Católica es uno de los espacios verdes más emblemáticos de Gijón. Destaca por su extensión, su diseño paisajístico y su importancia histórica y cultural para la ciudad. Su entorno combina amplias zonas de césped, caminos arbolados, lagos y espacios de recreo, convirtiéndolo en un lugar ideal para pasear, descansar y disfrutar de la naturaleza en plena ciudad."
+    },
+    "section2": {
+        "paragraph": "Inauguración y desarrollo. El Parque Isabel La Católica fue inaugurado oficialmente en 1941, aunque su construcción comenzó unos años antes, sobre terrenos ganados al mar en la zona este de Gijón. Su creación formó parte de un proyecto de ampliación urbana y embellecimiento de la ciudad tras la Guerra Civil. A lo largo de las décadas, el parque ha sido remodelado y ampliado, manteniendo siempre su carácter de espacio verde emblemático.Está situado junto al estadio de El Molinón y al río Piles, muy cerca de la playa de San Lorenzo. Su ubicación lo convierte en una de las principales zonas de recreo, paseo y encuentro para vecinos y visitantes."
+    },
+    "section3": {
+        "paragraph": "Características y diseño. El Parque Isabel La Católica es el más grande y antiguo de Gijón. Ocupa más de 150.000 metros cuadrados y combina amplias zonas de césped, caminos arbolados, estanques, áreas de juegos y espacios dedicados a la fauna. Su diseño paisajístico se inspira en los jardines románticos del siglo XIX, con un equilibrio entre naturaleza ordenada y vegetación libre.En el interior del parque destacan dos grandes lagos comunicados, donde habitan diversas especies de aves acuáticas como cisnes, patos, pavos reales y ocas. También cuenta con un pequeño zoológico de aves exóticas y una amplia variedad de árboles y flores que cambian el color del paisaje a lo largo del año."
+    }
+}
+  </script>
+
+   <script  type="application/json" id="parqueIsabelCatolica_assets" >
+{
+    "photo1":"assets/img/12_parqueIsabelCatolica/parqueIsabelCatolica1.webp",
+    "photo2":"assets/img/12_parqueIsabelCatolica/parqueIsabelCatolica2.webp",
+    "photo3":"assets/img/12_parqueIsabelCatolica/parqueIsabelCatolica3.webp"
+   
+}
+  </script>
+
+<script>
+
+const raw = document.querySelector("#parqueIsabelCatolica").textContent;
+console.log(raw);
+const data= JSON.parse(raw);
+console.log(data);
+console.log(data.section5);
+
+document.querySelector(".tituloIntroductivo h1").textContent = data.section1.title;
+document.querySelector(".tituloIntroductivo p").textContent = data.section1.introduction;
+document.querySelector(".parte1 p").textContent = data.section1.paragraph;
+document.querySelector(".parte2 p").textContent = data.section2.paragraph;
+document.querySelector(".parte3 p").textContent = data.section3.paragraph;
+
+const raw_assets = document.querySelector("#parqueIsabelCatolica_assets").textContent;
+const data_assets = JSON.parse(raw_assets);
+document.querySelector(".parte1 .imagen img").setAttribute("src",data_assets.photo1);
+document.querySelector(".parte2 .imagen img").setAttribute("src",data_assets.photo2);
+document.querySelector(".parte3 .imagen img").setAttribute("src",data_assets.photo3);
+
+
+</script>
+
+  
+</body>
+</html>
